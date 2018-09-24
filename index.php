@@ -16,7 +16,7 @@ while($fila = $resultado->fetch_assoc()){
 <link href="css/estilo.css" rel="stylesheet" type="text/css"</link>
 </head>
 <body>
-	<header>
+	<header>asdsdadsadsa
 		<div>
 			<img src="imaxes/nba.png" />
 		</div>
