@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+@font-face{
+	font-family: gDoce;
+	src: url(../letras/nba.ttf);
+}
+
+*{
+	box-sizing:border-box;
+	font-family: gDoce;
+}
+
+header{
+	width:100%;
+}
+header > div {
+	float:left;
+}
+header > div > img{
+	width:20%;
+}
+header > div > h1{
+	width:80%;
+}
+div.clearfix{
+	clear: both;
+}
+ul{
+	list-style:none;
+	text-align:center;
+}
+ul > a > li{
+	float:left;
+	width:calc(100%/3);
+}
+article.equipo{
+	float:left;
+	width:calc(100%/3);
+	padding:15px;
+}
+article.equipo > div{
+	border-radius:15px;
+	border:1px solid gray;
+	width:80%;
+	margin:0 auto;
+	text-align:center;
+	padding:15px;
+	min-height:300px;
+}
+img.imaxeSlider{
+	width:100%;
+}
